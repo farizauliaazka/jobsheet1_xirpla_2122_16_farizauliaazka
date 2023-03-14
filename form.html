@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style4.css">
+    <title>Form</title>
+</head>
+<body>
+     <!-- NAVIGATION BAR -->
+     <nav>
+        <div class="logo">
+            <a href="index.html">Portofolio</a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Beranda</a></li>
+            <li>
+                <a href="tentang.html">Tentang</a>
+                <ul class="dropdown">
+                    <li><a href="tentang.html#biodata">Biodata Pribadi</a></li>
+                    <li><a href="tentang.html#hobi">Hobi</a></li>
+                    <li><a href="tentang.html#kemampuan">Kemampuan</a></li>
+                    <li><a href="tentang.html#riwayatP">Riwayat Pendidikan</a></li>
+                    <li><a href="tentang.html#pengalamanO">Pengalaman Organisasi</a></li>
+                    <li><a href="tentang.html#prestasi">Prestasi</a></li>
+                </ul>
+            </li>
+            <li><a href="portofolio.html">Portofolio</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <!-- NAVIGATION BAR -->
+
+    <!-- BODY -->
+    <div>
+        <h1>FORM UPDATE BIODATA PRIBADI</h1>
+        <form action="">
+            <label class="nama" for="nama">Nama :</label>
+            <input type="text" placeholder="Masukkan Nama"><br><br>
+
+            <label class="umur" for="umur">Umur :</label>
+            <input type="number" placeholder="Masukkan Umur"><br><br>
+
+            <label class="ttl" for="ttl">Tempat, Tanggal Lahir :</label>
+            <input type="date"><br><br>
+
+            <label class="jk" for="jk">Jenis Kelamin :</label>
+            <input class="rlaki" type="radio" name="gender" id="lk"><label class="laki" for="laki">Laki-Laki</label>
+            <input class="rperempuan" type="radio" name="gender" id="p"> <label class="perempuan" for="p">Perempuan</label><br><br>
+
+            <label class="agama" for="agama">Agama :</label>
+            <input type="text"><br><br>
+
+            <label class="alamat" for="alamat">Alamat :</label>
+            <input type="text"><br><br>
+
+            <label class="email" for="email">Email :</label>
+            <input type="email"><br><br>
+
+            <label class="sosmed" for="sosmed">Sosial Media :</label>
+            <input type="text"><br><br>
+            <input class="submit" type="submit">
+        </form> 
+    </div>
+
+    <div>
+        <h1>FORM UPDATE KEMAMPUAN</h1>
+        <form action="">
+            <input type="checkbox">
+            <label class="khtml" for="html">HTML</label><br>
+
+            <input type="checkbox">
+            <label class="kcss" for="css">CSS</label><br>
+
+            <input type="checkbox">
+            <label class="kjs" for="js">JS</label><br>
+
+            <input type="checkbox">
+            <label class="kreact" for="reactjs">Reactjs</label><br>
+
+            <input type="checkbox">
+            <label class="kphp" for="php">PHP</label><br>
+
+            <input type="checkbox">
+            <label class="kpy" for="python">Python</label><br><br>
+
+            <input class="kl" type="text" placeholder="Jika Ada Kemampuan Lain"><br><br>
+
+            <input class="submit" type="submit">
+        </form>
+    </div>
+
+    <div>
+        <h1>FORM UPDATE HOBI</h1>
+        <form action="">
+           <input class="hobi" type="text" placeholder="Masukkan Hobi"><br><br>
+           <input class="submit" type="submit">
+        </form>
+    </div>
+
+    <div>
+        <h1>FORM UPDATE GAMBAR</h1>
+        <form action="">
+            <input class="file" type="file"><br><br>
+            <input class="submit" type="submit">
+        </form>
+    </div>
+
+    <div>
+        <h1 class="furp">FORM UPDATE RIWAYAT PENDIDIKAN</h1>
+        <form action="">
+            <label for="jenjang">Jenjang :</label>
+            <input type="text"><br><br>
+            <label for="ni">Nama Instansi :</label>
+            <input type="text"><br><br>
+            <label for="po">Tahun Masuk :</label>
+            <input type="text"><br><br>
+            <label for="prestasi">Tahun Lulus :</label>
+            <input type="text"><br><br>
+            <input class="submit" type="submit">
+        </form>
+    </div>
+
+    <div>
+        <h1 class="fupo">FORM UPDATE PENGALAMAN ORGANISASI</h1>
+        <form action="">
+            <label for="no">Nama Organisasi :</label>
+            <input type="text"><br><br>
+            <label for="jabatan">Jabatan :</label>
+            <input type="text"><br><br>
+            <label for="tm">Tahun Mulai :</label>
+            <input type="text"><br><br>
+            <label for="tb">Tahun Berakhir :</label>
+            <input type="text"><br><br>
+            <input class="submit" type="submit">
+        </form>
+    </div>
+
+    <div>
+        <h1>FORM UPDATE PRESTASI</h1>
+        <form action="">
+            <label for="np">Nama Prestasi :</label>
+            <input type="text"><br><br>
+            <label for="tingkat">Tingkat :</label>
+            <input type="text"><br><br>
+            <label for="peringkat">Peringkat :</label>
+            <input type="number"><br><br>
+            <label for="tahun">Tahun :</label>
+            <input type="text"><br><br>
+            <input class="submit" type="submit">
+        </form>
+    </div>
+    <!-- BODY -->
+
+     <!-- FOOTER -->
+     <footer>
+        <div class="copyright">
+            <a href=""><small>&copy;farizauliaazka</small></a>
+        </div>
+        <ul class="menu2">
+            <a href="https://www.instagram.com/?next=%2F"><img class="image" src="assets/instagram.png"></a>
+            <a href="https://m.facebook.com/farizaulia.azka?eav=AfZNYXO5DDlwblSq5_gIKIsg-x_1KS0JgQ7y1zCqhPi7VYjHFltsltGuG6VOYIupS-U&ref=wizard&paipv=0"><img class="image2" src="assets/facebook.png"></a>
+        </ul>
+    </footer>
+    <!-- FOOTER -->
+</body>
+</html>

@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #393E46;
+}
+
+nav {
+    background-color: #222831;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    padding: 10px 25px;
+}
+
+nav .logo {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+nav .logo a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+nav .menu li {
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav .menu li:hover {
+    background-color: #393E46;
+    transition: 0.3s;
+}
+
+nav .menu .dropdown {
+    display: none;
+}
+
+nav .menu .dropdown:hover {
+    transition: 0.3s;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+    background-color: #222831;
+    position: absolute;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+h1 {
+    margin-left: 400px;
+    margin-top: 70px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 540px;
+    height: 30px;
+}
+
+form {
+    display: block;
+    margin-left: 375px;
+}
+
+input {
+    width: 200px;
+}
+
+label {
+    color: white;
+    margin-left: 35px;
+}
+
+
+.cb1 {
+    margin-left: -70px;
+}
+
+.cb2 {
+    margin-left: 77.5px;
+    margin-top: -90px;
+}
+
+.hobi {
+    margin-left: 35px;
+}
+
+.submit {
+    margin-left: 35px;
+}
+
+.file {
+    margin-left: 35px;
+}
+
+.kl {
+    margin-left: 95px;
+}
+
+.khtml {
+    margin-left: -90px;
+}
+
+.kcss {
+    margin-left: -90px;
+}
+
+.kjs {
+    margin-left: -90px;
+}
+
+.kreact {
+    margin-left: -90px;
+}
+
+.kphp {
+    margin-left: -90px;
+}
+
+.kpy {
+    margin-left: -90px;
+}
+
+.rlaki {
+    margin-left: -90px;
+}
+
+footer {
+    background-color: #222831;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 50px;
+    margin-top: 117px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu2 {
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+
+.menu2 li a {
+    padding: 10px 25px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.copyright a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.image {
+    width: 30px;
+    margin-top: -2px;
+    margin-right: 20px;
+}
+
+.image2 {
+    width: 30px;
+    margin-top: -2px;
+}
+
+.fubp {
+    width: 1070px;
+}
+
+.furp {
+    margin-left: 400px;
+    margin-top: 70px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 589px;
+    height: 30px;
+}
+
+.fupo {
+    width: 700px;
+}
